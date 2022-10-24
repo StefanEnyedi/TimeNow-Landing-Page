@@ -12,9 +12,9 @@ header{
     padding: 2.5rem;
     align-items: center;
 }
-/* main{
+footer{
     padding: 2.5rem;
-} */
+}
 .ItemsNavigation{
     display: flex;
     flex-direction: column;
@@ -85,7 +85,6 @@ header{
     margin-left: 2.8rem;
 }
 .SecondSection{
-    /* margin-top: 2rem; */
     background-color: #46CCDE;
 }
 .SecondSection img {
@@ -144,6 +143,52 @@ header{
 .arrow{
     margin-left: 0.3rem;
 }
+.FooterItems{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+.FooterItems div{
+    display: flex;
+    flex-direction: column;
+}
+.FooterItems p{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.FooterItems a{
+    color: #425466;
+    text-decoration: none;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+}
+.FooterItems div:nth-child(2){
+    margin-left: 30%;
+}
+.FooterButtons{
+    margin-top: 1.5rem;
+}
+.FooterButtons p{
+    font-size: 1.8rem;
+}
+.FooterButtons span{
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 2.1rem;
+    font-size: 1.8rem;
+}
+
+.ButtonsBorder{
+    margin-top: 0.5rem;
+    display: flex; 
+    align-items: center;
+    border: 1px solid green;
+}
+.ButtonsBorder button{
+    margin-left: 2.5rem;
+}
+
 @media only screen and (min-width: 800px) {
     .Buttons{
         width: 50%;
